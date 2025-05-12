@@ -63,8 +63,8 @@ addArea("c",                                            // Function for adding a
         {
             name: "stick",
             desc: "Used to craft planks",
-            type: "display",
-            cost: [["stick", 0]],
+            type: "craft",
+            cost: [["stick", 2]],
         },
         {
             name: "dirt",
