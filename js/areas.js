@@ -1,9 +1,9 @@
 // Game Info
 setGameInfo({
-    name: "Grindtale",                         // The name of your game!
+    name: "Grindcraft stuff",                         // The name of your game!
     version: "0.1",                                     // The current version of your game!
-    icon: "C:\Users\HP\OneDrive - Stichting Carmelcollege\Afbeeldingen\sans_custom-b7daedf6ac04cd9a0dddd304176b2dee826b2965-s1100-c50.png",                    // Link or path to an icon image for your game!
-    ID: "myGrindcraftGame",                             // Your game's ID! Should be unique for every game!
+    icon: "images/splash.png",                    // Link or path to an icon image for your game!
+    ID: "myFirstGrindcraftGame",                             // Your game's ID! Should be unique for every game!
 });
 
 // Resources
@@ -47,12 +47,12 @@ addArea("c",                                            // Function for adding a
             resources: [
                 {
                     id: "stick",
-                    time: [["", 0.5]],
+                    time: [["", 0.1]],
                     probability: 50,
                 },
                 {
                     id: "dirt",
-                    time: [["", 0.6]],
+                    time: [["", 0.1]],
                     probability: 50,
                 },
             ]
